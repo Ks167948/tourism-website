@@ -1,0 +1,209 @@
+/* Reset styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+  }
+  
+  /* Navigation Bar */
+  nav ul {
+    display: flex;
+    background: #0044cc;
+    padding: 10px;
+    list-style: none;
+    justify-content: space-around;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  nav ul li a:hover {
+    background: #0033aa;
+    border-radius: 5px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    background: url('background.jpg') no-repeat center center/cover;
+    padding: 50px;
+    color: white;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  /* Heritage Grid */
+  .heritage-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .heritage-grid a {
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .heritage-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Gallery Grid */
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .gallery-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Booking Form */
+  .booking-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booking-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .booking-form input,
+  .booking-form textarea,
+  .booking-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .booking-form button {
+    background: #0044cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .booking-form button:hover {
+    background: #0033aa;
+  }
+  /* Hero Section */
+.hero {
+    text-align: center;
+    background: url('background.jpg') no-repeat center center/cover;
+    padding: 60px;
+    color: black;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero img {
+    width: 1200px;
+    height: 300px;
+    margin: 20px 0;
+
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  /* Why Visit Section */
+  .why-visit {
+    padding: 40px 20px;
+    text-align: center;
+    background: #f9f9f9;
+  }
+  
+  .why-visit h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .reasons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .reason {
+    text-align: center;
+  }
+  
+  .reason img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .reason h3 {
+    margin: 15px 0 10px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .reason p {
+    color: #555;
+    line-height: 1.4;
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    padding: 40px 20px;
+    background: #0044cc;
+    color: white;
+    text-align: center;
+  }
+  
+  .testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .carousel {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .testimonial {
+    background: #003399;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .testimonial p {
+    font-style: italic;
+    line-height: 1.6;
+  }
+  
+  .testimonial h4 {
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
